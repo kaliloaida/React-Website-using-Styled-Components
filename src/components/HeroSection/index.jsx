@@ -12,7 +12,7 @@ import {
    ArrowForward,
 } from './HeroElements'
 import Video from '../../videos/video.webm'
-import { Button } from '../UI/ButtonElement.jsx'
+import { Button } from '../UI/ButtonElements.jsx'
 
 const HeroSection = () => {
    const [hover, setHover] = useState(false)
@@ -22,7 +22,7 @@ const HeroSection = () => {
    }
 
    return (
-      <HeroContainer>
+      <HeroContainer id="home">
          <HeroBg>
             <VideoBg autoPlay loop muted src={Video} type="video/webm" />
          </HeroBg>
